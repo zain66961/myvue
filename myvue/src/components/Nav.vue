@@ -1,6 +1,11 @@
 <template>
   <div class="hello">
      <h1>{{msg}}</h1>
+      <router-link :to="{path:'/Home',query:{dataid:1}}">go Home</router-link>
+
+
+      
+      <router-link :to="{path:'/Me',params:{name:2}}">go Me</router-link>
   </div>
 </template>
 
