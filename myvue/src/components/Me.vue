@@ -11,7 +11,7 @@ export default {
     },
     created () {
        
-         console.log($route.params);
+         console.log(this.$route.params.dataid);
     }
 }
 </script>

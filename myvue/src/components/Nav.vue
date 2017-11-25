@@ -1,11 +1,11 @@
 <template>
   <div class="hello">
      <h1>{{msg}}</h1>
-      <router-link :to="{path:'/Home',query:{dataid:1}}">go Home</router-link>
-
-
+      <router-link :to="{name:'Home',query:{dataid:1}}">go Home</router-link>
+      <router-link :to="{name:'Me',params:{dataid:2}}">go Me</router-link>
+      <router-link :to="{name:'BookDetails',params:{id:63}}">第一本书详情</router-link>
+      <router-link :to="{name:'BookDetails',params:{id:99}}">第二本书详情</router-link>
       
-      <router-link :to="{path:'/Me',params:{name:2}}">go Me</router-link>
   </div>
 </template>
 
