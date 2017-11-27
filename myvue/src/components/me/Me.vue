@@ -1,6 +1,9 @@
 
 <template>
-   <div class="title">{{msg}}</div>
+   <div >
+      这是我的
+
+   </div>
 </template>
 <script>
 export default {
@@ -9,10 +12,10 @@ export default {
             msg:'Me'
         }
     },
-    created () {
+    // created () {
        
-         console.log(this.$route.params.dataid);
-    }
+    //      console.log(this.$route.params.dataid);
+    // }
 }
 </script>
 <style>

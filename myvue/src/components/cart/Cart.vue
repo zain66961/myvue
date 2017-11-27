@@ -5,18 +5,13 @@
 export default {
     data(){
         return{
-            msg:'my home'
+            msg:'购物车'
         }
-    },
-    created () {
-        console.log(this.$route.query.dataid);
     }
 }
 </script>
 
 <style scoped>
- .title{
-     color:red;
- }
+ 
 </style>
 
