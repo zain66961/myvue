@@ -17,7 +17,7 @@
 import Tab from './common/Tabbar.vue'
 export default {
     components: {Tab} 
-
+       
 }
 </script>
 

@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="swiper-container" id="banner">
     <div class="swiper-wrapper">
       <div class="swiper-slide" v-for="item in imgList"><img :src="item.path" alt=""></div>
@@ -6,8 +7,12 @@
     <!-- 如果需要分页器 -->
     <div class="swiper-pagination"></div>
   </div>
+ 
+</div>
+  
 </template>
 <script>
+
   export default{
       data(){
           return{
@@ -25,6 +30,7 @@
           }
       },
       mounted() {
+        // this.$toast('你是不傻?');
         new Swiper('#banner', {
           loop: true,
           // 如果需要分页器

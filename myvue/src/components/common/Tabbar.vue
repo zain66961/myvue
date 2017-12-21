@@ -1,21 +1,30 @@
 <template>
    <div class="weui-tab">
+     
         <div class="weui-tabbar">
-            <router-link to="/home">
-              <p>首页</p>
+          <router-link to="/home">
+
+              <mt-button type="default">首页</mt-button>
+                <!-- <p>首页</p> -->
             </router-link> 
            <router-link to="/explorer">
-              <p>分类</p>
+                <p>分类</p>
             </router-link>
            <router-link to="/cart">
-              <p>购物车</p>
+               <p>购物车</p>
              </router-link>
            <router-link to="/me">
-              <p>我的</p>
+                <p>我的</p>
             </router-link>   
         </div>
    </div>
 </template>
+<script>
+export default {
+  
+
+}
+</script>
 
 
 <style>
